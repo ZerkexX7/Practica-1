@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+Esta es mi primera pagina html -->
+<html>
+    <head>
+        <title>AmigurumiShop</title>
+        <meta charset="UTF-8"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        
+    </head>
+    <body>
+  <header class="encabezado"> 
+            <nav class="navegacion">
+             <a  class="logo nav-link" href="index.html">AmigurumiShop</a>
+              <ul class="nav-menu">
+                 <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="pagina6.html">&triangleleft;</a></li>
+                  <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="pagina2.html">&triangleright;</a></li>
+                   <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="video.html">Videos</a></li>   
+                   <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="formulario.html">Form</a></li>
+             </ul>
+            </nav>
+            
+        </header>  
+        <aside>
+         <h2>Registro de clientes</h2>
+          <p>Lugar para que los clientes se registren</p>
+          
+        </aside>
+        
+        <section>
+            
+            <h2> Pasos basicos</h2>
+            
+            <article>
+                <h3>Su informacion personal</h3>
+                <form action="/usuario/agregar" method="post">
+                    
+                   Nombre Completo: <input type="text" name="nombre" value="" size="40" /><br/>
+                   Clave:<input type="password" name="Clave" value="" size="20" /><br/>
+                   Edad:<input type="number" name="Edad" value="" /><br/>
+                   correo:<input type="email" name="correo" value="" size="30"/><br/>
+                   Celular: <input type="number" name="Celular" value=""/><br/>
+                   <input type="submit" name="Enviar" value="Enviar" /><br/>
+                </form>
+            </article>           
+        </section>
+        
+        <footer>
+            
+            &COPY; Derechos Reservados AmigurumiShop 2024
+            
+        </footer>               
+    </body>
+</html>
